@@ -77,7 +77,7 @@ while True:
     def exams_message(message):
         bot.send_message(message.chat.id,
        #                   '23 Декабря - Биология, в аудитории 2-16. ✅')
-                         '13 Июня в 8:30 - МБД в Скайпе.')
+                         '13 Июня в 8:30 - МБД в Скайпе. ✅')
     
         bot.send_message(message.chat.id,
        #                   '27 Декабря - Физика, в аудитории 3-2.✅')
@@ -291,7 +291,7 @@ while True:
     @bot.message_handler(commands=['next'])
     def next_para(message):
         bot.send_message(message.chat.id,
-                         'Следующий экзамен 13 Июня в 8:30 - МБД в Скайпе.')
+                         '19 Июня в 8:30 - Анатомия в Скайпе.')
     #   global Zn, change, changep, pok, firn
     #    firn = message.from_user.first_name
     #    now = datetime.now()
@@ -718,4 +718,3 @@ while True:
         bot.polling(none_stop=True, interval=0)
     except:
         pass
-
