@@ -84,7 +84,7 @@ while True:
                             '19 Июня в 8:30 - Анатомия в Скайпе. ✅')
         bot.send_message(message.chat.id,
         #                 '2 Января - Выш. мат, в аудитории 8-11.✅')
-                            '22 Июня в 8:30 - Физика в Zoom.')
+                            '22 Июня в 8:30 - Физика в Zoom. ✅')
         bot.send_message(message.chat.id,
        #                  '10 Января - История Украины, в аудитории 3-9.')
                          '26 Июня в 8:30 - Выш. мат в Скайпе.')
@@ -291,7 +291,7 @@ while True:
     @bot.message_handler(commands=['next'])
     def next_para(message):
         bot.send_message(message.chat.id,
-                         '22 Июня в 8:30 - Физика в Zoom.')
+                         '26 Июня в 8:30 - Выш. мат в Скайпе.')
     #   global Zn, change, changep, pok, firn
     #    firn = message.from_user.first_name
     #    now = datetime.now()
