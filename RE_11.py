@@ -87,9 +87,7 @@ while True:
                             '22 Июня в 8:30 - Физика в Zoom. ✅')
         bot.send_message(message.chat.id,
        #                  '10 Января - История Украины, в аудитории 3-9.')
-                         '26 Июня в 8:30 - Выш. мат в Скайпе.')
-        bot.send_message(message.chat.id,
-                         'http://rbecs.karazin.ua/wp-content/uploads/2017/course1.pdf - Расписание экзаменов.')
+                         '26 Июня в 8:30 - Выш. мат в Скайпе. ✅')
     #@bot.message_handler(commands=['tm'])
     #def tm_mess(message):
     #   global Zn
@@ -291,7 +289,7 @@ while True:
     @bot.message_handler(commands=['next'])
     def next_para(message):
         bot.send_message(message.chat.id,
-                         '26 Июня в 8:30 - Выш. мат в Скайпе.')
+                         'Поздравляю с успешной сдачей экзаменов!')
     #   global Zn, change, changep, pok, firn
     #    firn = message.from_user.first_name
     #    now = datetime.now()
